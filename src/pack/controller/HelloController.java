@@ -13,7 +13,7 @@ import org.springframework.web.servlet.mvc.Controller;
 import pack.model.HelloModel;
 
 @org.springframework.stereotype.Controller
-@RequestMapping({"hello.do", "hi", "aaa/world.do", "h*.do", "k*"})
+@RequestMapping({"hello.do", "hi", "aaa/world.do", "h*.do", "k*", "mbc", "jtbc"})
 public class HelloController {
 	@Autowired // Sector Insection
 	private HelloModel helloModel;

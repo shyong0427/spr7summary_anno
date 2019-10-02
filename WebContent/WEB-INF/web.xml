@@ -15,7 +15,11 @@
   </servlet>
   <servlet-mapping>
 	<servlet-name>test</servlet-name>
+	<!-- 
 	<url-pattern>*.do</url-pattern>
+	 -->
+	 <!-- servlet.xml연동 -->
+	 <url-pattern>/</url-pattern> 
   </servlet-mapping>
   <absolute-ordering></absolute-ordering>
 </web-app>
